@@ -29,5 +29,9 @@ configure :production do
 end
 
 get '/' do
-    "#{request.ip}"
+  "#{request.ip}"
+end
+
+get '/about' do
+  send_file(File.join(settings.public_folder, 'about.html'))
 end

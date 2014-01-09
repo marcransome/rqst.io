@@ -1,0 +1,13 @@
+body {
+    font-family: "Lora", serif;
+    font-size: 100%;
+    line-height: 1.6em;
+    -webkit-text-size-adjust: 100%;
+    color: #272727;
+}
+
+#content {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 0.8em;
+}
