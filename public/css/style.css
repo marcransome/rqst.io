@@ -1,5 +1,5 @@
 body {
-    font-family: "Lora", serif;
+    font-family: "Vollkorn", serif;
     font-size: 100%;
     line-height: 1.6em;
     -webkit-text-size-adjust: 100%;
@@ -10,4 +10,8 @@ body {
     max-width: 680px;
     margin: 0 auto;
     padding: 0 0.8em;
+}
+
+h2 {
+    font-weight: 500;
 }
