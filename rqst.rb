@@ -35,3 +35,8 @@ end
 get '/about' do
   send_file(File.join(settings.public_folder, 'about.html'))
 end
+
+get '/sitemap.xml' do
+  send_file(File.join(settings.public_folder, 'sitemap.xml'))
+end
+
