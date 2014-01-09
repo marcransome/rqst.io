@@ -6,7 +6,7 @@ Do you need to know your public IPv4 address? Send a `HTTP GET` request to `http
 $ curl http://rqst.io
 ```
 
-Use it in scripts, programs, even shipping applications.
+Use it in scripts, programs, or anywhere you need to know your public IP address.
 
 ## License
 `rqst.io` is provided under the terms of the [MIT License](http://opensource.org/licenses/mit-license.php).
