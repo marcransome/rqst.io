@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://www.rqst.io/</loc>
-    <changefreq>always</changefreq>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.rqst.io/about</loc>
-    <changefreq>monthly</changefreq>
+    <loc>http://www.rqst.io/ip</loc>
+    <changefreq>always</changefreq>
   </url>
 </urlset>

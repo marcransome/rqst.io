@@ -29,11 +29,11 @@ configure :production do
 end
 
 get '/' do
-  "#{request.ip}"
+  send_file(File.join(settings.public_folder, 'index.html'))
 end
 
-get '/about' do
-  send_file(File.join(settings.public_folder, 'about.html'))
+get '/ip' do
+  "#{request.ip}"
 end
 
 get '/sitemap.xml' do
