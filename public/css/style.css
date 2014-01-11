@@ -22,7 +22,6 @@ header > * {
     display: inline-block;
     text-align: center;
     margin: 10px 10px 10px 0;
-    background-color: red;
 }
 
 #logo_image {
@@ -33,7 +32,6 @@ header > * {
 #header_text {
     display: inline-block;
     color: white;
-    background-color: red;
 }
 
 section {
