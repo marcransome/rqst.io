@@ -1,9 +1,9 @@
 ## rqst.io
 
-Do you need to know your public IPv4 address? Send a `HTTP GET` request to `http://rqst.io`:
+Do you need to know your public IPv4 address? Send a `HTTP GET` request to `http://rqst.io/ip`:
 
 ```bash
-$ curl http://rqst.io
+$ curl http://rqst.io/ip
 ```
 
 Use it in scripts, programs, web apps, or anywhere you need to know your public IP address.
