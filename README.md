@@ -1,12 +1,12 @@
 ## rqst.io
 
-Do you need to know your public IPv4 address? Send a `HTTP GET` request to `http://rqst.io/ip`:
+Need to know your public IPv4 address? Send a `HTTP GET` request to `http://rqst.io/ip`:
 
 ```bash
 $ curl http://rqst.io/ip
 ```
 
-Use it in scripts, programs, web apps, or anywhere you need to know your public IP address.
+Use it in scripts, programs, or anywhere you need to know your public IP address.
 
 The service is backed by the [Heroku infrastructure](https://www.heroku.com) and regularly monitored to ensure reliability and consistent uptime.
 
