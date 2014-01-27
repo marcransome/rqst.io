@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Actor", sans-serif;
     font-size: 100%;
     line-height: 1.6em;
     -webkit-text-size-adjust: 100%;
@@ -32,15 +32,13 @@ header > * {
 #header_text {
     display: inline-block;
     color: white;
-    max-width: 700px;
 }
 
 section {
     margin-left: auto;
     margin-right: auto;
     max-width: 768px;
-    padding: 10px;
-    max-width: 820px;
+    padding: 0.6em
 }
 
 footer {
@@ -49,7 +47,6 @@ footer {
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 0.875em;
 }
 
 h1 {
