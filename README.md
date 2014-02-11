@@ -8,7 +8,7 @@ $ curl http://rqst.io/ip
 
 Use it in scripts, programs, or anywhere you need to know your public IP address.
 
-The service is backed by the [Heroku infrastructure](https://www.heroku.com) and regularly monitored to ensure reliability and consistent uptime.
+The service is backed by the [Heroku infrastructure](https://www.heroku.com) and monitored regularly to ensure reliability and consistent uptime.
 
 ## License
 `rqst.io` is provided under the terms of the [MIT License](http://opensource.org/licenses/mit-license.php).
