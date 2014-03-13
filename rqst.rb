@@ -29,25 +29,17 @@ configure :production do
   require 'newrelic_rpm'
 end
 
-helpers do
-  def set_content_type
-    unless params["rqst-content-type"].eql?("text") then
-      content_type 'application/json'
-    end
-  end
-end
-
 get '/' do
   send_file(File.join(settings.public_folder, 'index.html'))
 end
 
 post '/params' do
-  set_content_type
+  content_type 'application/json'
   JSON.pretty_generate(params)
 end
 
 get '/ip' do
-  set_content_type
+  content_type 'application/json'
   JSON.pretty_generate({ "ip" => "#{request.ip}"})
 end
 
