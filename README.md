@@ -6,7 +6,7 @@ Need to test your webpage form? Send your `HTTP POST` request to `http://rqst.io
 <form action="http://rqst.io/params" method="post">
 ```
 
-Use it in your test projects, or anywhere you need to inspect HTTP parameters.
+Use it in development projects or anywhere you need to inspect HTTP parameters.
 
 The service is backed by the [Heroku infrastructure](https://www.heroku.com) and monitored regularly to ensure reliability and consistent uptime.
 
