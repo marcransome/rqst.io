@@ -1,12 +1,12 @@
 ## rqst.io
 
-Need to know your public IPv4 address? Send a `HTTP GET` request to `http://rqst.io/ip`:
+Need to test your webpage form? Send your `HTTP POST` request to `http://rqst.io/params`:
 
-```bash
-$ curl http://rqst.io/ip
+```html
+<form action="http://rqst.io/params" method="post">
 ```
 
-Use it in scripts, programs, or anywhere you need to know your public IP address.
+Use it in your test projects, or anywhere you need to inspect HTTP parameters.
 
 The service is backed by the [Heroku infrastructure](https://www.heroku.com) and monitored regularly to ensure reliability and consistent uptime.
 
