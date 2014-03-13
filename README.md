@@ -5,9 +5,9 @@ Need to test your webpage form? Send your `HTTP POST` request to `http://rqst.io
 ```html
 <form action="http://rqst.io/params" method="post">
 ```
-`rqst.io` returns a JSON object consisting of attribute-value pairs corresponding to your form's name-value pairs. Use it in development projects or anywhere you need to inspect HTTP parameters.
+Each request generates an 'application/json' content-type response and a JSON object payload consisting of attribute-value pairs corresponding to your form's name-value pairs.
 
-The service is backed by the [Heroku infrastructure](https://www.heroku.com) and monitored regularly to ensure reliability and consistent uptime.
+The service is backed by the [Heroku infrastructure](https://www.heroku.com) and monitored regularly to ensure reliability.
 
 ## License
 `rqst.io` is provided under the terms of the [MIT License](http://opensource.org/licenses/mit-license.php).
