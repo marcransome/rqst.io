@@ -40,7 +40,7 @@ post '/params' do
 end
 
 get '/ip' do
-  "#{request.ip}"
+  JSON.pretty_generate({ "ip" => "#{request.ip}"})
 end
 
 not_found do
