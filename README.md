@@ -1,11 +1,11 @@
 ## rqst.io
 
-Need to test your webpage form? Send your `HTTP POST` request to `http://rqst.io/params`:
+Need to test your HTML forms? Send your `HTTP POST` request to `http://rqst.io/params`:
 
 ```html
 <form action="http://rqst.io/params" method="post">
 ```
-Each request generates an 'application/json' content-type response with a JSON object payload consisting of attribute-value pairs corresponding to your form's name-value pairs. Use it in development projects or anywhere you need to inspect HTTP parameters.
+Each request generates a response with 'application/json' content-type and a JSON object payload consisting of attribute-value pairs that correspond to your form's name-value pairs. Use it in development projects or anywhere you need to inspect HTTP parameters.
 
 The service is backed by the [Heroku infrastructure](https://www.heroku.com) and monitored regularly to ensure reliability.
 
