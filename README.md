@@ -1,6 +1,6 @@
 ## rqst.io
 
-Need to test your HTML forms? Send your `HTTP POST` request to `http://rqst.io/params`:
+Need to test your HTML form? Send your `HTTP POST` request to `http://rqst.io/params`:
 
 ```html
 <form action="http://rqst.io/params" method="post">
