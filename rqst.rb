@@ -29,16 +29,24 @@ configure :production do
   require 'newrelic_rpm'
 end
 
+helpers do
+  def dont_cache
+    expires Time.at(0), :no_store, :no_cache, :must_revalidate
+  end
+end
+
 get '/' do
   send_file(File.join(settings.public_folder, 'index.html'))
 end
 
 post '/params' do
+  dont_cache
   content_type 'application/json'
   JSON.pretty_generate(params)
 end
 
 get '/ip' do
+  dont_cache
   content_type 'application/json'
   JSON.pretty_generate({ "ip" => "#{request.ip}"})
 end
