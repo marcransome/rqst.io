@@ -54,8 +54,3 @@ end
 not_found do
   send_file(File.join(settings.public_folder, '404.html'), {:status => 404})
 end
-
-get '/sitemap.xml' do
-  send_file(File.join(settings.public_folder, 'sitemap.xml'))
-end
-
